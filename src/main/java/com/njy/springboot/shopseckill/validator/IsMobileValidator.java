@@ -8,7 +8,7 @@ import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
 /**
- * Created by jiangyunxiong on 2018/5/22.
+ * Created by njy on 2018/5/22.
  * <p>
  * 自定义手机格式校验器
  */
