@@ -11,6 +11,7 @@ import java.util.concurrent.Executors;
  * Created by njy on 2018/5/31.
  */
 public class RateLimiterDemo {
+    //https://blog.csdn.net/tianyaleixiaowu/article/details/74942405
     public static void main(String[] args) {
         RateLimiter rateLimiter = RateLimiter.create(2);
         List<Runnable> tasks = new ArrayList<Runnable>();
